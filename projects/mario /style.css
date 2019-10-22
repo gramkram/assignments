@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: lightslategray; 
+} 
+
+.container{
+    display: grid;
+    height: 100%;
+    grid-template:
+    1fr 
+    1fr 
+    1fr 
+    1fr
+    / 1fr 1fr 1fr;
+    grid-template-areas:
+    "ass px2 px3"
+    "t1 t2 t3"
+    "c1 c2 c3"
+    "f f f"
+}
+.goomba {
+    display: grid;
+    grid-area: px1;
+    height: 300px;
+    width: 300px;
+}
+.bomb {
+    display: grid;
+    grid-area: px2;
+    height: 300px;
+    width: 300px;
+}
+.fish {
+    display: grid;
+    grid-area: px3;
+    height: 300px;
+    width: 300px;
+}
+.goo {
+    grid-area: t1;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.bombomb {
+    grid-area: t2;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.cheep {
+    grid-area: t3;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.bomb {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+#sum {
+    height: 40px;
+    background-color: red;
+    width: 40px;
+
+}
+footer {
+    grid-area: f; 
+    background-color: red;
+    text-align: center;
+}

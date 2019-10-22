@@ -1,0 +1,16 @@
+input[type=text] {
+    border-width: 10px;
+    border-color: silver;
+    
+}
+input[type=number] {
+    border-width: 10px;
+    border-color: silver;
+}
+body {
+    background-color: salmon;
+}
+h1 {
+    text-align: center;
+}
+  

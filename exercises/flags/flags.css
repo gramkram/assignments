@@ -1,0 +1,171 @@
+.ff {
+    height: 180px;
+    width: 90px;
+    background-color: red;
+    display: inline-block;
+}
+.fWhite {
+    height: 180px;
+    width: 90px;
+    background-color: white;
+    display: inline-block;
+}
+.fRed {
+    height: 180px;
+    width: 90px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.gb {
+    height: 50px;
+    width: 280px;
+    background-color: black;
+}
+.gr {
+    height: 50px;
+    width: 280px;
+    background-color: red;
+}
+.gy {
+    height: 50px;
+    width: 280px;
+    background-color: yellow;
+}
+
+.mw {
+    height: 180px;
+    width: 90px;
+    background-color: white;
+    display: inline-block;
+}
+.mada {
+    display: inline-block;
+}
+.mr {
+    height: 93px;
+    width: 280px;
+    background-color: red;
+    
+    
+}
+.mg {
+    height: 93px;
+    width: 280px;
+    background-color: green;
+    
+}
+.sr {
+    background-color: red;
+    width:  290px;
+    height: 186px;
+}
+
+.sw {
+    background-color: white;
+    width:40px;
+    height: 110px;
+    position: relative;
+    left: 130px;
+    top: 35px;
+}
+
+.sww {
+    background-color: white;
+    width: 140px;
+    height: 30px;
+    position: relative;
+    left: 80px;
+    bottom: 35px;
+}
+
+.swb {
+    background-color: blue;
+    width:  290px;
+    height: 186px;
+}
+
+.swy {
+    background-color: yellow;
+    width: 30px;
+    height: 186px;
+    left: 70px;
+    position: relative;
+    
+}
+
+.swyy {
+    background-color: yellow;
+    width: 290px;
+    height: 30px;
+    position: relative;
+    bottom: 100px;
+}
+.gaw {
+    height: 180px;
+    width: 90px;
+    background-color: white;
+    
+}
+.gar {
+    height: 50px;
+    width: 280px;
+    background-color: red;
+}
+
+.gab {
+    height: 40px;
+    width: 280px;
+    background-color: blue;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: white; 
+}
+
+.gag {
+    height: 50px;
+    width: 280px;
+    background-color: green;
+
+}
+.tar {
+    background-color:red;
+    width:  290px;
+    height: 186px;
+}
+.taw { 
+    background-color: white;
+    width: 100px;
+    height: 100px;
+
+}
+.tarr {
+    background-color: red;
+    width:25px;
+    height: 80px;
+    position: relative;
+    left: 35px;
+    bottom: 98px;
+}
+.tarrr {
+    background-color: red;
+    width: 80px;
+    height: 25px;
+    position: relative;
+    bottom: 150px;
+    left: 10px;
+}
+.dot {
+    height: 75px;
+    width: 75px;
+    background-color: red;
+    border-radius: 80%;
+    display: inline-block;
+    
+  }
+
+
+  

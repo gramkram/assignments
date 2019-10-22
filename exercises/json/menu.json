@@ -1,0 +1,52 @@
+{
+    "appetizers": [
+        {
+            "name": "hush puppy",
+            "ingredients": ["cornmill", "onion", "jalapeno"],
+            "description": "cornbread with a kick"
+        },
+        {
+            "name": "nachos",
+            "ingredients": ["chips", "cheese", "chicken", "pico", "guac"],
+            "description": "crunchy protien filled favorite"
+        }
+    ], 
+    "coldSandwiches": [
+        {
+            "name": "ham and cheese sandwich",
+            "ingredients": ["bread", "ham", "chesse", "mustard"],
+            "description": "classics never die"
+        },
+        {
+            "name": "cob salad sub",
+            "ingredients": ["bread", "vinaigrette", "turkey", "egg"],
+            "description": "even better than the salad"
+        }
+    ],
+    "hotSandwiches": [
+        {
+            "name": "cheese steak",
+            "ingredients": ["bread", "steak", "chesse", "sauce"],
+            "description": "savory salt greatness"
+        },
+        {
+            "name": ""
+        }
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
