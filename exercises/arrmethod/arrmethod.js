@@ -3,6 +3,4 @@
 
 // console.log(vegetables.slice(0));
 
-var car = ["a4", "a5", "a6", "a7"] {
-    consol
-}
+console.log(fiveAndGreaterOnly([3, 6, 8, 2]));
