@@ -1,0 +1,17 @@
+.grid {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
+.g1 {
+    background-color: pink;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.g2 {
+    background-color: plum;
+    grid-column-start: 2;
+}
