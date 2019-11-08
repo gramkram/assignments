@@ -1,0 +1,9 @@
+.b1 {
+    height: 800px;
+    width: 800px;
+    margin: 5px;
+    display: grid;
+    background-color: gray;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
