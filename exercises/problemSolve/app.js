@@ -1,12 +1,4 @@
-// function divisible (num1, num2){
-//     if (num1 % num2 === 0){
-//         return true
-//     } else {
-//         return false
-//     }
-// }
 
-// console.log(divisible(6, 6))
 
 // Write a function that takes an array of words
 //  and a character and return each word 
@@ -21,7 +13,5 @@
 //     return newArr
 // }
 
-// console.log(lettersWithStrings(["#3", "$$$", "C%4!", "Hey!"], "!")) // => ["C%4!", "Hey!"]
-
-
-
+// onsole.log(lettersWithStrings(["#3", "$$$", "C%4!", "Hey!"], "!")) // => ["C%4!", "Hey
+ 
