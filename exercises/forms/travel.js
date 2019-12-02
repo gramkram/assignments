@@ -17,7 +17,7 @@ nameForm.addEventListener('submit', function(event){
         }   
     }
     alert(
-        `firstName: ${firstName }
+    `firstName: ${firstName }
     lastName: ${lastName}
     age: ${age}
     gender: ${gender}
