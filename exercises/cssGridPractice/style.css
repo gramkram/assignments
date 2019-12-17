@@ -10,7 +10,7 @@
     margin: 8px;
     background-color: red;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 5; 
 }
 .g2 {
     grid-column-start: 1;

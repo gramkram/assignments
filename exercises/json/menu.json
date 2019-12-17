@@ -30,7 +30,9 @@
             "description": "savory salt greatness"
         },
         {
-            "name": ""
+            "name": "hamburger",
+            "ingredients": ["bun", "beef patty", "lettuce", "mustard", "bacon"],
+            "description": "the American dream!"
         }
     ]
 
