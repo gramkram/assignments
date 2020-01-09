@@ -1,41 +1,33 @@
 
-// const todoForm = document.todoForm
-    
+axios.get("https://api.vschool.io/grant/todo")
+    .then(res => {
+        const allToDo = res.data
+        // console.log('all', allToDo)
+        for (let i = 0; i < allToDo.length; i++){
+            createToDO(allToDo[i])
+        }
+    })
+    .catch(error => console.log(error))
 
-// todoForm.addEventListener("submit", function(event){
-//     event.preventDefault()
-
-//     const newTodo = {
-//         task: todoForm.task.value 
-//     }
-//     axios.post("https://api.vschool.io/grant/todo", newTodo)
-//     .then(response => console.log(response.data))
-//     .catch(error => console.log(error))
-// })
-
-
-// axios.get("https://api.vschool.io/grant/todo")
-//     .then(response => {
-//         for(let i = 0; i < response.data.length; i++){
-//             const h1 = document.createElement('h1')
-//              h1.textContent = response.data[i].title
-//             document.body.appendChild(h1)
-//         }
-//     })
-//     .catch(error => console.log(error))  
-
-
-const newTodo = {
-    title: "my pracite",
-    description: "learning to code ajax",
-    price: "only my time"
+function createToDO(ToDo) {
+    const list = document.getElementById("list")
+    const div = document.createElement("div")
+    const h1 = document.createElement("h1")
+    const p = document.createElement("p")
+    const h2 = document.createElement("h2")
+    h1.textContent = ToDo.title
+    p.textContent = ToDo.description
+    h2.textContent = ToDo.price
+    list.appendChild(div)
+    div.appendChild(h1)
+    div.appendChild(p)
+    div.appendChild(h2)
+ 
 }
 
-axios.post("https://api.vschool.io/grant/todo", newTodo)
-    .then(response => console.log(response.data))
-    .catch(error => console.log(console.error));
+const todoform = document.todoform
 
-
-const todoform.addEventListener("submit", function(event){
-    event.preventDefault 
+todoform.addEventListener("submit", function(event){
+    event.preventDefault()
+    
 })
